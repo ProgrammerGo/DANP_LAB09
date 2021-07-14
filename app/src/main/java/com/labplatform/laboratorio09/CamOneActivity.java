@@ -49,7 +49,6 @@ import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class CamOneActivity extends AppCompatActivity {
@@ -57,8 +56,6 @@ public class CamOneActivity extends AppCompatActivity {
 
     ImageView imageview;
 
-    ImageView intentImplicito;
-    /*----------------------------------------------------------------*/
     private static final String TAG = "AndroidCameraApi";
     private TextureView textureView;
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
