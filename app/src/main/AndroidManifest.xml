@@ -17,7 +17,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Laboratorio09">
-        <activity android:name=".CamTwoActivity"></activity>
         <activity android:name=".CamOneActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
